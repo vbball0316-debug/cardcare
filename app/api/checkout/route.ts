@@ -27,9 +27,10 @@ export async function POST() {
 
 
       success_url:
-        "https://cardcare.vercel.app/success",
-      cancel_url:
-        "https://cardcare.vercel.app",
+  "https://www.cardcare.jp/success?session_id={CHECKOUT_SESSION_ID}",
+
+cancel_url:
+  "https://www.cardcare.jp",
 
     });
 

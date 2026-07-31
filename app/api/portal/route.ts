@@ -5,56 +5,45 @@ const stripe = new Stripe(
   process.env.STRIPE_SECRET_KEY || ""
 );
 
-export async function POST(
-  request: Request
-) {
+export async function POST(request: Request) {
 
   try {
 
     const { session_id } = await request.json();
 
-    const session =
-      await stripe.checkout.sessions.retrieve(
-        session_id
-      );
 
-    const customerId =
-      session.customer as string;
+    const session = await stripe.checkout.sessions.retrieve(
+      session_id
+    );
 
 
     const portalSession =
       await stripe.billingPortal.sessions.create({
 
-        customer: customerId,
+        customer: session.customer as string,
 
         return_url:
-          "https://cardcare.vercel.app/success",
+          "https://www.cardcare.jp/success",
 
       });
 
 
     return NextResponse.json({
-
       url: portalSession.url,
-
     });
 
 
-  } catch(error){
+  } catch (error) {
 
     console.error(error);
 
-
     return NextResponse.json(
-
       {
-        error:"Portal作成エラー"
+        error: "Portal作成エラー",
       },
-
       {
-        status:500
+        status:500,
       }
-
     );
 
   }
