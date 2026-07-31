@@ -1,4 +1,60 @@
+"use client";
+
+import { useState } from "react";
+
 export default function Home() {
+
+  const [loading, setLoading] = useState(false);
+
+
+  const handleCheckout = async () => {
+
+  setLoading(true);
+
+  try {
+
+    const response = await fetch(
+      "/api/checkout",
+      {
+        method: "POST",
+      }
+    );
+
+
+    const text = await response.text();
+
+console.log("API RESPONSE:", text);
+
+if (!text) {
+  alert("APIから返答がありません");
+  return;
+}
+
+const data = JSON.parse(text);
+
+
+    if (data.url) {
+      window.location.href = data.url;
+    } else {
+      alert("決済ページの作成に失敗しました");
+    }
+
+
+  } catch (error) {
+
+    console.error(error);
+    alert("エラーが発生しました");
+
+  } finally {
+
+    setLoading(false);
+
+  }
+
+};
+
+
+
   return (
     <main className="min-h-screen bg-white text-gray-900">
       <div className="mx-auto max-w-5xl px-6 py-12">
@@ -25,9 +81,13 @@ export default function Home() {
             月額換算月経ったの10円、年120円のカードサポートサービスです。
           </p>
 
-          <button className="mt-10 w-full rounded-full bg-green-500 px-10 py-4 text-lg font-bold text-white shadow md:w-auto">
-            年120円で始める
-          </button>
+          <button
+  onClick={handleCheckout}
+  disabled={loading}
+  className="mt-10 w-full rounded-full bg-green-500 px-10 py-4 text-lg font-bold text-white shadow md:w-auto"
+>
+  {loading ? "処理中..." : "年120円で始める"}
+</button>
 
           <p className="mt-3 text-sm text-gray-500">
             クレジットカード決済・アカウント作成不要
@@ -317,11 +377,13 @@ export default function Home() {
 
 
 
-          <button className="mt-8 w-full rounded-full bg-green-500 px-10 py-4 font-bold md:w-auto">
-
-            年120円で始める
-
-          </button>
+          <button
+  onClick={handleCheckout}
+  disabled={loading}
+  className="mt-8 w-full rounded-full bg-green-500 px-10 py-4 font-bold md:w-auto"
+>
+  {loading ? "処理中..." : "年120円で始める"}
+</button>
 
 
           <p className="mt-3 text-sm text-gray-300">
