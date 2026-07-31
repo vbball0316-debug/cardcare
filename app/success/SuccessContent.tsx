@@ -7,7 +7,7 @@ export default function SuccessContent() {
 
   const searchParams = useSearchParams();
 
-  const [loading,setLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
 
 
   async function openPortal(){
@@ -46,9 +46,34 @@ export default function SuccessContent() {
 
 
   return (
-    <main className="min-h-screen bg-white text-gray-900">
-      
-      {/* ここに現在のSuccessページの中身を全部移動 */}
+    <main className="flex min-h-screen items-center justify-center bg-white px-6 text-gray-900">
+
+      <div className="max-w-md text-center">
+
+        <h1 className="text-3xl font-bold">
+          お申し込みありがとうございます
+        </h1>
+
+
+        <p className="mt-6 text-gray-600">
+          CardCareの利用条件達成サポートが開始されました。
+        </p>
+
+
+        <p className="mt-3 text-gray-600">
+          年1回利用条件のカードを安心してご利用ください。
+        </p>
+
+
+        <button
+          onClick={openPortal}
+          disabled={loading}
+          className="mt-8 rounded-full bg-green-500 px-8 py-3 font-bold text-white"
+        >
+          {loading ? "処理中..." : "契約内容を確認する"}
+        </button>
+
+      </div>
 
     </main>
   );
