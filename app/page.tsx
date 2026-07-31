@@ -57,6 +57,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "CardCare",
+  "image": "https://www.cardcare.jp/og-image.png",
   "description":
     "クレジットカードの年会費無料条件や利用タイミングを管理するカード管理サポートサービスです。",
   "brand": {
@@ -67,6 +68,7 @@ const jsonLd = {
     "@type": "Offer",
     "price": "120",
     "priceCurrency": "JPY",
+    "priceValidUntil": "2027-12-31",
     "availability": "https://schema.org/InStock",
     "url": "https://www.cardcare.jp"
   },
@@ -123,6 +125,12 @@ const faqJsonLd = {
         __html: JSON.stringify(jsonLd),
       }}
     />
+    <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(faqJsonLd),
+  }}
+/>
 
     <main className="min-h-screen bg-white text-gray-900">
       <div className="mx-auto max-w-5xl px-6 py-12">
@@ -139,7 +147,7 @@ const faqJsonLd = {
         <section className="mt-20 text-center">
 
           <h2 className="text-4xl font-bold leading-tight md:text-6xl">
-            年1回利用条件のクレジットカード、
+            年1回利用条件のクレジットカード
             <br />
             もう使い忘れでの年会費の支払いにさよならしよう。
           </h2>
