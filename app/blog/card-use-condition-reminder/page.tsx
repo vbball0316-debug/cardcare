@@ -85,6 +85,21 @@ export default function Page() {
         >
           CardCareを確認する
         </a>
+        <div className="mt-8 text-center">
+
+  <p className="text-gray-600">
+    年1回利用で年会費無料になるカードの仕組みを詳しく解説しています
+  </p>
+
+  <a
+    href="/blog/annual-fee-free-condition"
+    className="mt-3 inline-block font-bold text-green-600"
+  >
+    年1回利用条件のクレジットカードとは？ →
+
+  </a>
+
+</div>
 
       </div>
 

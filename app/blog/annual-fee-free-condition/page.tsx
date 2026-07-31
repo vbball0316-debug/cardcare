@@ -93,6 +93,20 @@ export default function Page() {
         >
           CardCareを確認する
         </a>
+        <div className="mt-8 text-center">
+
+  <p className="text-gray-600">
+    年1回利用条件を忘れてしまう原因や対策についてはこちら
+  </p>
+
+  <a
+    href="/blog/card-use-condition-reminder"
+    className="mt-3 inline-block font-bold text-green-600"
+  >
+    年1回利用条件のカードを忘れない方法 →
+  </a>
+
+</div>
 
       </div>
 
