@@ -414,29 +414,55 @@ const faqJsonLd = {
   </h3>
 
 
-  <div className="mt-6 rounded-2xl border p-6">
-
-    <h4 className="text-xl font-bold">
-      年1回利用で年会費無料になるクレジットカードとは？
-    </h4>
+  <div className="mt-8 grid gap-6 md:grid-cols-2">
 
 
-    <p className="mt-3 text-gray-600">
-      利用条件の仕組みや、使い忘れによる年会費発生を防ぐ方法を解説しています。
-    </p>
+    <div className="rounded-2xl border p-6">
+
+      <h4 className="text-xl font-bold">
+        年1回利用条件のクレジットカードとは？
+      </h4>
+
+      <p className="mt-3 text-gray-600">
+        年1回利用することで年会費無料になるカードの仕組みや、
+        利用条件について解説します。
+      </p>
+
+      <a
+        href="/blog/annual-fee-free-condition"
+        className="mt-4 inline-block font-bold text-green-600"
+      >
+        記事を読む →
+      </a>
+
+    </div>
 
 
-    <a
-      href="/blog/annual-fee-free-condition"
-      className="mt-4 inline-block font-bold text-green-600"
-    >
-      記事を読む →
-    </a>
+
+    <div className="rounded-2xl border p-6">
+
+      <h4 className="text-xl font-bold">
+        年1回利用条件のカードを忘れない方法
+      </h4>
+
+      <p className="mt-3 text-gray-600">
+        使い忘れによる年会費発生を防ぐ方法と、
+        利用条件達成をサポートする仕組みを解説します。
+      </p>
+
+      <a
+        href="/blog/card-use-condition-reminder"
+        className="mt-4 inline-block font-bold text-green-600"
+      >
+        記事を読む →
+      </a>
+
+    </div>
+
 
   </div>
 
 </section>
-
         {/* FAQ */}
         <section className="mt-20">
 
