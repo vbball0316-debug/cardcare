@@ -162,7 +162,7 @@ const faqJsonLd = {
   disabled={loading}
   className="mt-10 w-full rounded-full bg-green-500 px-10 py-4 text-lg font-bold text-white shadow md:w-auto"
 >
-  {loading ? "処理中..." : "年120円で始める"}
+  {loading ? "処理中..." : "年120円で条件達成をサポート"}
 </button>
 
           <p className="mt-3 text-sm text-gray-500">
@@ -200,7 +200,7 @@ const faqJsonLd = {
 
           <p className="mx-auto mt-6 max-w-3xl text-center text-gray-600">
             CardCareは、年1回の利用などで年会費無料条件が設定されている
-            クレジットカードの管理をサポートするサービスです。
+            クレジットカードの条件達成をサポートするサービスです。
             管理負担を減らすために毎年自動で決済を行い、忘れがちなカードの管理を解決します。
           </p>
 
