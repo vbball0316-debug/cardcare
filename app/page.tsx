@@ -53,9 +53,35 @@ const data = JSON.parse(text);
 
 };
 
-
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "CardCare",
+  "description":
+    "クレジットカードの年会費無料条件や利用タイミングを管理するカード管理サポートサービスです。",
+  "brand": {
+    "@type": "Brand",
+    "name": "CardCare"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "120",
+    "priceCurrency": "JPY",
+    "availability": "https://schema.org/InStock",
+    "url": "https://www.cardcare.jp"
+  },
+  "url": "https://www.cardcare.jp"
+};
 
   return (
+  <>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(jsonLd),
+      }}
+    />
+
     <main className="min-h-screen bg-white text-gray-900">
       <div className="mx-auto max-w-5xl px-6 py-12">
 
@@ -495,5 +521,6 @@ const data = JSON.parse(text);
 
       </div>
     </main>
+    </>
   );
 }
