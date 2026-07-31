@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 import { useState } from "react";
 
@@ -168,6 +169,14 @@ const faqJsonLd = {
           <p className="mt-3 text-sm text-gray-500">
             クレジットカード決済・アカウント作成不要
           </p>
+          <Image
+  src="/images/home.png"
+  alt="CardCare サービスイメージ"
+  width={1200}
+  height={800}
+  priority
+  className="mx-auto mt-10 w-full max-w-3xl rounded-2xl"
+ />
 
         </section>
 
@@ -643,6 +652,12 @@ const faqJsonLd = {
     >
       特定商取引法に基づく表記
     </a>
+    <a
+  href="/about"
+  className="underline hover:text-green-600"
+>
+  CardCareについて
+</a>
 
   </div>
 
@@ -652,6 +667,7 @@ const faqJsonLd = {
 
 
       </div>
+     
     </main>
     </>
   );
