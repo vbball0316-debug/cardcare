@@ -71,14 +71,14 @@ const data = JSON.parse(text);
         <section className="mt-20 text-center">
 
           <h2 className="text-4xl font-bold leading-tight md:text-6xl">
-            年1回利用条件のカード、
+            年1回利用条件のクレジットカード、
             <br />
-            もう管理しなくていい。
+            もう使い忘れでの年会費の支払いにさよならしよう。
           </h2>
 
           <p className="mx-auto mt-8 max-w-2xl text-lg text-gray-600">
-            無駄なクレジットカードの年会費を回避したい人のために立ち上げた、
-            月額換算月たったの10円、年120円のカードサポートサービスです。
+            無駄なクレジットカードの年会費を回避したい方々へ向けて立ち上げた、
+            月額換算にして月たったの10円、年会費無料条件だけのための年120円のカードサポートサービスです。
           </p>
 
           <button
@@ -123,8 +123,9 @@ const data = JSON.parse(text);
 
 
           <p className="mx-auto mt-6 max-w-3xl text-center text-gray-600">
-            CardCareは、年1回の利用で年会費無料になるカードの
-            利用条件を忘れないために、毎年自動で決済を行うサービスです。
+            CardCareは、年1回の利用などで年会費無料条件が設定されている
+            クレジットカードの管理をサポートするサービスです。
+            管理負担を減らすために毎年自動で決済を行い、忘れがちなカードの管理を解決します。
           </p>
 
 
