@@ -1,8 +1,14 @@
+import Image from "next/image";
 export const metadata = {
   title:
     "年1回利用で年会費無料になるクレジットカードの条件とは？使い忘れを防ぐ方法 | CardCare",
   description:
     "年1回利用で年会費無料になるクレジットカードの仕組みや、使い忘れによる年会費発生を防ぐ方法を解説します。",
+    openGraph: {
+    images: [
+      "/images/annual-fee-free-condition.png"
+    ],
+  },
 };
 
 const articleJsonLd = {
@@ -42,6 +48,13 @@ export default function Page() {
         年1回利用で年会費無料になるクレジットカードの条件とは？
         使い忘れを防ぐ方法
       </h1>
+      <Image
+  src="/images/annual-fee-free-condition.png"
+  alt="年1回利用条件のクレジットカードの仕組み"
+  width={1200}
+  height={630}
+  className="mt-8 rounded-2xl"
+/>
 
 
       <p className="mt-8 text-gray-700 leading-8">
