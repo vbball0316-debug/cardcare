@@ -172,6 +172,31 @@ const faqJsonLd = {
         </section>
 
 
+                </section>
+
+
+        {/* SEO Article Link */}
+        <section className="mt-12 rounded-3xl border p-6 text-center">
+
+          <h3 className="text-xl font-bold">
+            年1回利用条件のカードについて詳しく知る
+          </h3>
+
+          <p className="mt-3 text-gray-600">
+            年会費無料条件の仕組みや、
+            使い忘れによる年会費発生を防ぐ方法を解説しています。
+          </p>
+
+          <a
+            href="/blog/annual-fee-free-condition"
+            className="mt-4 inline-block font-bold text-green-600"
+          >
+            年1回利用条件のカードとは？ →
+          </a>
+
+        </section>
+
+
         {/* Problem */}
         <section className="mt-24 rounded-3xl bg-green-50 p-8">
 
