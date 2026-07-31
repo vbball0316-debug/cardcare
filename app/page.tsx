@@ -405,6 +405,37 @@ const faqJsonLd = {
 
 
 
+{/* Articles */}
+
+<section className="mt-20">
+
+  <h3 className="text-3xl font-bold">
+    CardCareのお役立ち情報
+  </h3>
+
+
+  <div className="mt-6 rounded-2xl border p-6">
+
+    <h4 className="text-xl font-bold">
+      年1回利用で年会費無料になるクレジットカードとは？
+    </h4>
+
+
+    <p className="mt-3 text-gray-600">
+      利用条件の仕組みや、使い忘れによる年会費発生を防ぐ方法を解説しています。
+    </p>
+
+
+    <a
+      href="/blog/annual-fee-free-condition"
+      className="mt-4 inline-block font-bold text-green-600"
+    >
+      記事を読む →
+    </a>
+
+  </div>
+
+</section>
 
         {/* FAQ */}
         <section className="mt-20">
