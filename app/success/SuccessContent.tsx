@@ -1,13 +1,22 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function SuccessContent() {
 
   const searchParams = useSearchParams();
 
   const [loading, setLoading] = useState(false);
+  useEffect(() => {
+  if (typeof window !== "undefined" && "gtag" in window) {
+    (window as any).gtag("event", "purchase", {
+      transaction_id: searchParams.get("session_id") ?? "unknown",
+      currency: "JPY",
+      value: 120,
+    });
+  }
+}, [searchParams]);
 
 
   async function openPortal(){
