@@ -72,6 +72,48 @@ const jsonLd = {
   },
   "url": "https://www.cardcare.jp"
 };
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "カード番号はCardCareに保存されますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text":
+          "いいえ。カード情報はStripeの決済システムで管理され、CardCareではカード番号を保持しません。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "利用開始日はいつになりますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text":
+          "決済完了日がサービス開始日となり、以降毎年同日に年額料金の決済が行われます。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "解約はいつでもできますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text":
+          "はい、いつでも解約可能です。Stripeの管理画面からお手続きいただけます。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "クレジットカード1枚につき年額120円ですか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text":
+          "クレジットカード1枚につき年額120円を頂戴しております。複数枚登録による割引制度は現在ございません。"
+      }
+    }
+  ]
+};
 
   return (
   <>
