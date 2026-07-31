@@ -1,7 +1,13 @@
-"use client";
-import { useSearchParams } from "next/navigation";
-import { useState } from "react";
+import { Suspense } from "react";
+import SuccessContent from "./SuccessContent";
+
 export default function SuccessPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <SuccessContent />
+    </Suspense>
+  );
+}
     const searchParams = useSearchParams();
 
 const [loading, setLoading] = useState(false);
@@ -35,8 +41,11 @@ async function openPortal(){
 
 
   if(data.url){
-    window.location.href=data.url;
-  }
+  window.location.href=data.url;
+}else{
+  alert("契約管理ページの作成に失敗しました");
+  setLoading(false);
+}
 
 }
   return (
