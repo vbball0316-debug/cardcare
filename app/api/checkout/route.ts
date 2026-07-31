@@ -27,10 +27,9 @@ export async function POST() {
 
 
       success_url:
-        "http://localhost:3000/success",
-
+        "https://cardcare.vercel.app/success",
       cancel_url:
-        "http://localhost:3000",
+        "https://cardcare.vercel.app",
 
     });
 
