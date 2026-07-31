@@ -22,5 +22,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: "https://www.cardcare.jp/blog/annual-fee-free-condition",
       lastModified: new Date(),
     },
+    {
+  url: "https://www.cardcare.jp/blog/card-use-condition-reminder",
+  lastModified: new Date(),
+},
   ];
 }
