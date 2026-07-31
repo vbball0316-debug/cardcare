@@ -78,7 +78,7 @@ const data = JSON.parse(text);
 
           <p className="mx-auto mt-8 max-w-2xl text-lg text-gray-600">
             無駄なクレジットカードの年会費を回避したい人のために立ち上げた、
-            月額換算月経ったの10円、年120円のカードサポートサービスです。
+            月額換算月たったの10円、年120円のカードサポートサービスです。
           </p>
 
           <button
@@ -387,7 +387,7 @@ const data = JSON.parse(text);
 
 
           <p className="mt-3 text-sm text-gray-300">
-            クレジットカード決済対応・アカウント作成不要
+            クレジットカード決済・アカウント作成不要
           </p>
 
 
