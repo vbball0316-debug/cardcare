@@ -5,9 +5,38 @@ export const metadata = {
     "年1回利用で年会費無料になるクレジットカードの条件を忘れてしまう原因と、利用条件達成をサポートする方法を解説します。",
 };
 
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "年1回利用条件のクレジットカードとは？",
+  "description":
+    "年1回利用することで年会費無料になるクレジットカードの仕組みや、利用条件について解説します。",
+  "author": {
+    "@type": "Organization",
+    "name": "CardCare"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CardCare"
+  },
+  "datePublished": "2026-07-31",
+  "dateModified": "2026-07-31",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id":
+      "https://www.cardcare.jp/blog/annual-fee-free-condition"
+  }
+};
 
 export default function Page() {
   return (
+  <>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(articleJsonLd),
+      }}
+    />
     <main className="mx-auto max-w-3xl px-6 py-12">
 
       <h1 className="text-4xl font-bold leading-tight">
@@ -104,6 +133,7 @@ export default function Page() {
       </div>
 
 
-    </main>
-  );
+   </main>
+  </>
+);
 }
