@@ -539,6 +539,47 @@ const faqJsonLd = {
 
     </div>
 
+    <div className="rounded-2xl border p-6">
+
+      <h4 className="text-xl font-bold">
+        年会費無料クレジットカードの仕組みとは？無料になる条件を解説
+      </h4>
+
+      <p className="mt-3 text-gray-600">
+        年会費無料カードの種類や、
+        条件達成で無料になる仕組みについて解説します。
+      </p>
+
+      <a
+        href="/blog/annual-fee-free-card-guide"
+        className="mt-4 inline-block font-bold text-green-600"
+      >
+        記事を読む →
+      </a>
+
+    </div>
+
+
+
+    <div className="rounded-2xl border p-6">
+
+      <h4 className="text-xl font-bold">
+        年会費無料カードでも注意が必要な理由｜条件付き無料の落とし穴
+      </h4>
+
+      <p className="mt-3 text-gray-600">
+        無料だと思っていたカードで年会費が発生する理由や、
+        条件管理の重要性について解説します。
+      </p>
+
+      <a
+        href="/blog/conditional-annual-fee-free-card"
+        className="mt-4 inline-block font-bold text-green-600"
+      >
+        記事を読む →
+      </a>
+
+    </div>
 
   </div>
 
