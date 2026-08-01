@@ -430,7 +430,7 @@ const faqJsonLd = {
   </h3>
 
 
-  <div className="mt-8 grid gap-6 md:grid-cols-3">
+  <div className="mt-8 grid gap-6 md:grid-cols-2">
 
 
     <div className="rounded-2xl border p-6">
@@ -489,6 +489,49 @@ const faqJsonLd = {
 
       <a
         href="/blog/card-annual-fee-forget"
+        className="mt-4 inline-block font-bold text-green-600"
+      >
+        記事を読む →
+      </a>
+
+    </div>
+
+
+        <div className="rounded-2xl border p-6">
+
+      <h4 className="text-xl font-bold">
+        クレジットカードを複数枚持つデメリット｜年会費管理で注意するポイント
+      </h4>
+
+      <p className="mt-3 text-gray-600">
+        複数枚のクレジットカードを持つ場合に起きやすい、
+        年会費管理の注意点について解説します。
+      </p>
+
+      <a
+        href="/blog/multiple-credit-cards-management"
+        className="mt-4 inline-block font-bold text-green-600"
+      >
+        記事を読む →
+      </a>
+
+    </div>
+
+
+
+    <div className="rounded-2xl border p-6">
+
+      <h4 className="text-xl font-bold">
+        クレジットカードの解約タイミング｜使わないカードを整理する方法
+      </h4>
+
+      <p className="mt-3 text-gray-600">
+        使わなくなったカードを整理するタイミングや、
+        年会費発生を防ぐポイントについて解説します。
+      </p>
+
+      <a
+        href="/blog/credit-card-cancellation-guide"
         className="mt-4 inline-block font-bold text-green-600"
       >
         記事を読む →
