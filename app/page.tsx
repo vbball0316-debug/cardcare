@@ -580,6 +580,25 @@ const faqJsonLd = {
       </a>
 
     </div>
+    <div className="rounded-2xl border p-6">
+
+  <h4 className="text-xl font-bold">
+    クレジットカードは何枚持つのがベスト？管理できる枚数の目安を解説
+  </h4>
+
+  <p className="mt-3 text-gray-600">
+    クレジットカードは何枚持つのが理想なのか、
+    複数枚所有するメリット・デメリットや管理方法を解説します。
+  </p>
+
+  <a
+    href="/blog/credit-card-how-many-should-you-have"
+    className="mt-4 inline-block font-bold text-green-600"
+  >
+    記事を読む →
+  </a>
+
+</div>
 
   </div>
 
