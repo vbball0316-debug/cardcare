@@ -12,6 +12,13 @@ export default function Home() {
 
   setLoading(true);
 
+  if (typeof window !== "undefined" && "gtag" in window) {
+  (window as any).gtag("event", "begin_checkout", {
+    currency: "JPY",
+    value: 120,
+  });
+}
+
   try {
 
     const response = await fetch(
@@ -423,7 +430,7 @@ const faqJsonLd = {
   </h3>
 
 
-  <div className="mt-8 grid gap-6 md:grid-cols-2">
+  <div className="mt-8 grid gap-6 md:grid-cols-3">
 
 
     <div className="rounded-2xl border p-6">
@@ -461,6 +468,27 @@ const faqJsonLd = {
 
       <a
         href="/blog/card-use-condition-reminder"
+        className="mt-4 inline-block font-bold text-green-600"
+      >
+        記事を読む →
+      </a>
+
+
+
+    </div>
+        <div className="rounded-2xl border p-6">
+
+      <h4 className="text-xl font-bold">
+        クレジットカードの年会費を払い忘れる原因と防ぐ方法
+      </h4>
+
+      <p className="mt-3 text-gray-600">
+        知らないうちに発生する年会費請求の原因や、
+        利用条件を管理する方法について解説します。
+      </p>
+
+      <a
+        href="/blog/card-annual-fee-forget"
         className="mt-4 inline-block font-bold text-green-600"
       >
         記事を読む →
