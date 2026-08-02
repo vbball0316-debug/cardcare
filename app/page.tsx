@@ -599,6 +599,44 @@ const faqJsonLd = {
   </a>
 
 </div>
+<div className="rounded-2xl border p-6">
+
+  <h4 className="text-xl font-bold">
+    クレジットカードの年会費はいつ引き落とされる？確認方法と注意点を解説
+  </h4>
+
+  <p className="mt-3 text-gray-600">
+    クレジットカードの年会費が請求されるタイミングや、
+    確認方法、年会費無料条件を忘れないためのポイントを解説します。
+  </p>
+
+  <a
+    href="/blog/credit-card-annual-fee-payment-timing"
+    className="mt-4 inline-block font-bold text-green-600"
+  >
+    記事を読む →
+  </a>
+
+</div>
+<div className="rounded-2xl border p-6">
+
+  <h4 className="text-xl font-bold">
+    使っていないクレジットカードは解約すべき？放置するリスクを解説
+  </h4>
+
+  <p className="mt-3 text-gray-600">
+    使わないクレジットカードを放置するリスクや、
+    解約前に確認すべきポイントについて解説します。
+  </p>
+
+  <a
+    href="/blog/unused-credit-card"
+    className="mt-4 inline-block font-bold text-green-600"
+  >
+    記事を読む →
+  </a>
+
+</div>
 
   </div>
 
