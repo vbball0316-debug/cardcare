@@ -429,8 +429,13 @@ const faqJsonLd = {
     CardCareのお役立ち情報
   </h3>
 
+  <p className="mt-3 text-gray-600">
+    クレジットカード管理や年会費無料条件、
+    複数カード管理について解説しています。
+  </p>
 
-  <div className="mt-8 grid gap-6 md:grid-cols-2">
+
+  <div className="mt-8 grid gap-6 md:grid-cols-3">
 
 
     <div className="rounded-2xl border p-6">
@@ -440,8 +445,7 @@ const faqJsonLd = {
       </h4>
 
       <p className="mt-3 text-gray-600">
-        年1回利用することで年会費無料になるカードの仕組みや、
-        利用条件について解説します。
+        年1回利用することで年会費無料になるカードの仕組みを解説します。
       </p>
 
       <a
@@ -454,7 +458,6 @@ const faqJsonLd = {
     </div>
 
 
-
     <div className="rounded-2xl border p-6">
 
       <h4 className="text-xl font-bold">
@@ -462,8 +465,7 @@ const faqJsonLd = {
       </h4>
 
       <p className="mt-3 text-gray-600">
-        使い忘れによる年会費発生を防ぐ方法と、
-        利用条件達成をサポートする仕組みを解説します。
+        利用条件忘れを防ぐカード管理方法を解説します。
       </p>
 
       <a
@@ -473,65 +475,21 @@ const faqJsonLd = {
         記事を読む →
       </a>
 
-
-
     </div>
-        <div className="rounded-2xl border p-6">
-
-      <h4 className="text-xl font-bold">
-        クレジットカードの年会費を払い忘れる原因と防ぐ方法
-      </h4>
-
-      <p className="mt-3 text-gray-600">
-        知らないうちに発生する年会費請求の原因や、
-        利用条件を管理する方法について解説します。
-      </p>
-
-      <a
-        href="/blog/card-annual-fee-forget"
-        className="mt-4 inline-block font-bold text-green-600"
-      >
-        記事を読む →
-      </a>
-
-    </div>
-
-
-        <div className="rounded-2xl border p-6">
-
-      <h4 className="text-xl font-bold">
-        クレジットカードを複数枚持つデメリット｜年会費管理で注意するポイント
-      </h4>
-
-      <p className="mt-3 text-gray-600">
-        複数枚のクレジットカードを持つ場合に起きやすい、
-        年会費管理の注意点について解説します。
-      </p>
-
-      <a
-        href="/blog/multiple-credit-cards-management"
-        className="mt-4 inline-block font-bold text-green-600"
-      >
-        記事を読む →
-      </a>
-
-    </div>
-
 
 
     <div className="rounded-2xl border p-6">
 
       <h4 className="text-xl font-bold">
-        クレジットカードの解約タイミング｜使わないカードを整理する方法
+        クレジットカード管理アプリを比較
       </h4>
 
       <p className="mt-3 text-gray-600">
-        使わなくなったカードを整理するタイミングや、
-        年会費発生を防ぐポイントについて解説します。
+        複数カードを管理する方法やポイントを解説します。
       </p>
 
       <a
-        href="/blog/credit-card-cancellation-guide"
+        href="/blog/credit-card-management-app"
         className="mt-4 inline-block font-bold text-green-600"
       >
         記事を読む →
@@ -539,106 +497,21 @@ const faqJsonLd = {
 
     </div>
 
-    <div className="rounded-2xl border p-6">
-
-      <h4 className="text-xl font-bold">
-        年会費無料クレジットカードの仕組みとは？無料になる条件を解説
-      </h4>
-
-      <p className="mt-3 text-gray-600">
-        年会費無料カードの種類や、
-        条件達成で無料になる仕組みについて解説します。
-      </p>
-
-      <a
-        href="/blog/annual-fee-free-card-guide"
-        className="mt-4 inline-block font-bold text-green-600"
-      >
-        記事を読む →
-      </a>
-
-    </div>
-
-
-
-    <div className="rounded-2xl border p-6">
-
-      <h4 className="text-xl font-bold">
-        年会費無料カードでも注意が必要な理由｜条件付き無料の落とし穴
-      </h4>
-
-      <p className="mt-3 text-gray-600">
-        無料だと思っていたカードで年会費が発生する理由や、
-        条件管理の重要性について解説します。
-      </p>
-
-      <a
-        href="/blog/conditional-annual-fee-free-card"
-        className="mt-4 inline-block font-bold text-green-600"
-      >
-        記事を読む →
-      </a>
-
-    </div>
-    <div className="rounded-2xl border p-6">
-
-  <h4 className="text-xl font-bold">
-    クレジットカードは何枚持つのがベスト？管理できる枚数の目安を解説
-  </h4>
-
-  <p className="mt-3 text-gray-600">
-    クレジットカードは何枚持つのが理想なのか、
-    複数枚所有するメリット・デメリットや管理方法を解説します。
-  </p>
-
-  <a
-    href="/blog/credit-card-how-many-should-you-have"
-    className="mt-4 inline-block font-bold text-green-600"
-  >
-    記事を読む →
-  </a>
-
-</div>
-<div className="rounded-2xl border p-6">
-
-  <h4 className="text-xl font-bold">
-    クレジットカードの年会費はいつ引き落とされる？確認方法と注意点を解説
-  </h4>
-
-  <p className="mt-3 text-gray-600">
-    クレジットカードの年会費が請求されるタイミングや、
-    確認方法、年会費無料条件を忘れないためのポイントを解説します。
-  </p>
-
-  <a
-    href="/blog/credit-card-annual-fee-payment-timing"
-    className="mt-4 inline-block font-bold text-green-600"
-  >
-    記事を読む →
-  </a>
-
-</div>
-<div className="rounded-2xl border p-6">
-
-  <h4 className="text-xl font-bold">
-    使っていないクレジットカードは解約すべき？放置するリスクを解説
-  </h4>
-
-  <p className="mt-3 text-gray-600">
-    使わないクレジットカードを放置するリスクや、
-    解約前に確認すべきポイントについて解説します。
-  </p>
-
-  <a
-    href="/blog/unused-credit-card"
-    className="mt-4 inline-block font-bold text-green-600"
-  >
-    記事を読む →
-  </a>
-
-</div>
 
   </div>
+
+
+  <div className="mt-10 text-center">
+
+    <a
+      href="/blog"
+      className="inline-block rounded-full bg-green-500 px-8 py-3 font-bold text-white"
+    >
+      すべての記事を見る →
+    </a>
+
+  </div>
+
 
 </section>
         {/* FAQ */}
