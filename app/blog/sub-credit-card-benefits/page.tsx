@@ -270,6 +270,14 @@ export default function Page() {
           >
             年1回利用条件のカードを忘れない方法 →
           </a>
+          <br />
+
+<a
+  href="/blog/credit-card-cancellation-guide"
+  className="mt-3 inline-block font-bold text-green-600"
+>
+  クレジットカードの解約タイミング｜使わないカードを整理する方法 →
+</a>
 
 
         </div>
