@@ -174,6 +174,30 @@ export default function Page() {
           >
             クレジットカードを作りすぎると危険？ →
           </a>
+          <br />
+
+<a
+  href="/blog/sub-credit-card-benefits"
+  className="mt-3 inline-block font-bold text-green-600"
+>
+  サブカードの使い分け方 →
+</a>
+<br />
+
+<a
+  href="/blog/credit-card-management-app"
+  className="mt-3 inline-block font-bold text-green-600"
+>
+  クレジットカード管理アプリを比較｜複数カードを管理する方法 →
+</a>
+<br />
+
+<a
+  href="/blog/card-use-condition-reminder"
+  className="mt-3 inline-block font-bold text-green-600"
+>
+  年1回利用条件のカードを忘れない方法 →
+</a>
         </div>
 
       </main>
