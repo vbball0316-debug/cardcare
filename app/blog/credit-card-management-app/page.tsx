@@ -214,6 +214,20 @@ export default function Page() {
 
 
         <h2 className="mt-12 text-2xl font-bold">
+  クレジットカード管理アプリとCardCareの違い
+</h2>
+
+
+<p className="mt-4 text-gray-700 leading-8">
+  一般的なクレジットカード管理アプリは、
+  利用金額や支出管理を目的としたものが中心です。
+</p>
+
+<p className="mt-4 text-gray-700 leading-8">
+  一方、CardCareは年1回利用など、
+  年会費無料条件の達成管理に特化したサービスです。
+</p>
+        <h2 className="mt-12 text-2xl font-bold">
           CardCareは年会費条件の管理に特化
         </h2>
 
@@ -235,6 +249,21 @@ export default function Page() {
           複数カードを利用している方が、
           「使い忘れによる年会費発生」を防ぐための管理を簡単にします。
         </p>
+
+                <div className="mt-8 rounded-xl bg-green-50 p-5 text-center">
+
+          <p className="font-bold">
+            年1回利用条件のカード管理を簡単に
+          </p>
+
+          <a
+            href="/"
+            className="mt-3 inline-block font-bold text-green-600"
+          >
+            CardCareを確認する →
+          </a>
+
+        </div>
 
 
 
