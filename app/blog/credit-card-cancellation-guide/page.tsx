@@ -217,6 +217,23 @@ export default function Page() {
           >
             年会費を払い忘れる原因と防ぐ方法 →
           </a>
+          <br />
+
+<a
+  href="/blog/not-using-credit-card"
+  className="mt-3 inline-block font-bold text-green-600"
+>
+  使っていないクレジットカードの管理方法 →
+</a>
+<br />
+
+<a
+  href="/blog/credit-card-management-app"
+  className="mt-3 inline-block font-bold text-green-600"
+>
+  クレジットカード管理アプリを比較｜複数カードを管理する方法 →
+</a>
+
 
         </div>
 
