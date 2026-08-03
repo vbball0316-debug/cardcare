@@ -227,6 +227,30 @@ export default function Page() {
           >
             使っていないクレジットカードは解約すべき？ →
           </a>
+          <br />
+
+<a
+  href="/blog/how-many-credit-cards-should-you-have"
+  className="mt-3 inline-block font-bold text-green-600"
+>
+  クレジットカードは何枚まで持っても大丈夫？ →
+</a>
+<br />
+
+<a
+  href="/blog/sub-credit-card-benefits"
+  className="mt-3 inline-block font-bold text-green-600"
+>
+  サブカードの使い分け方 →
+</a>
+<br />
+
+<a
+  href="/blog/credit-card-management-app"
+  className="mt-3 inline-block font-bold text-green-600"
+>
+  クレジットカード管理アプリを比較｜複数カードを管理する方法 →
+</a>
 
 
         </div>
