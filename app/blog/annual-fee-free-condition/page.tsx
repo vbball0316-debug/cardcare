@@ -147,6 +147,22 @@ export default function Page() {
   >
     年1回利用条件のカードを忘れない方法 →
   </a>
+  <br />
+  <br />
+
+<a
+  href="/blog/credit-card-annual-fee-payment-timing"
+  className="mt-3 inline-block font-bold text-green-600"
+>
+  クレジットカードの年会費が発生するタイミング →
+</a>
+
+<a
+  href="/blog/credit-card-management-app"
+  className="mt-3 inline-block font-bold text-green-600"
+>
+  クレジットカード管理アプリを比較｜複数カードを管理する方法 →
+</a>
 
 </div>
 
